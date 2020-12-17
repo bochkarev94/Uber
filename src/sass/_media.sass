@@ -1,0 +1,294 @@
+@media  ( max-width: 1200px )
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .advanteges
+        &_descr
+            align-items: flex-start
+        &_text
+            width: 300px
+    .mobile
+        padding: 48px 10px 49px 0
+        &_item
+            width: 300px
+
+    .footer
+        &_wrapper > div
+            width: 50%
+            &:nth-child(1)
+                width: 25%
+            &:nth-child(3)
+                width: 25%
+                display: flex
+                justify-content: flex-end
+        &_shops
+            text-align: center
+            img
+                padding-bottom: 10px
+
+@media  ( max-width: 991px )
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            margin-top: 21px
+            height: 40px
+            width: 100%
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+    .advanteges
+        &_descr
+            flex-direction: column
+            align-items: center
+        &_text
+            width: 300px
+            margin-top: 20px
+    .mobile
+        &_item
+            width: 220px
+            &_subtitle
+                font-size: 18px
+    .car
+        &_img
+            width: 100%
+            text-align: center
+            top: 260px
+            img
+                width: 90%
+    .world
+        height: 620px
+        &_text
+            margin-top: 376px
+    .footer
+        &_wrapper
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            padding: 0
+        &_wrapper > div
+            width: 100%
+            &:nth-child(1)
+                display: flex
+                justify-content: center
+                order: 2
+            &:nth-child(2)
+                order: 1
+            &:nth-child(3)
+                display: flex
+                justify-content: center
+                order: 3
+        &_shops
+            display: flex
+            justify-content: center
+
+@media ( max-width: 768px )
+    .menu
+        font-size: 30px
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            padding-top: 10px
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #ffffff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            color: #ffffff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        &_header
+            line-height: 45px
+    .mobile
+        &_item
+            width: 400px
+    .car
+        &_img
+            top: 330px
+    .footer
+        &_wrapper > div
+            width: 100%
+@media ( max-width: 575px )
+    nav
+        height: 30px
+    header
+        height: 30px
+    .subheader
+        height: 60px
+        margin-top: 30px
+        &_official
+            display: none
+        &_logo
+            margin-top: 16px
+        &_phone
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            margin-top: 16px
+        &_btn
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin-top: 6px
+    .promo
+        min-height: 400px
+        padding: 170px 0 35px 0
+        &_descr
+            display: none
+        &_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+        &_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .menu
+        width: 85%
+        &_item
+            width: 100%
+            text-align: center
+        &_link
+            display: block
+            padding: 0 5px
+    .advanteges
+        padding: 22px 0 36px 0
+        &_descr
+            margin-top: 26px
+        &_img
+            width: 100px
+            height: 100px
+        &_text
+            width: 100%
+            margin-top: 27px
+            margin-right: 25px
+            .slogan
+                font-size: 16px
+    .title
+        font-size: 16px
+        margin-top: 15px
+        line-height: 16px
+    .mobile
+        &_item
+            width: 290px
+            height: 254px
+    .car
+        height: 390px
+        background-color: #070716
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        &_header
+            padding-top: 25px
+            .title
+                display: none
+            .subtitle
+                display: none
+        .sublabel
+            display: block
+            color: #ffffff
+            font-size: 17px
+            line-height: 24px
+            text-align: center
+            padding-bottom: 33px
+            z-index: 1
+        &_img
+            top: 85px
+        &_footer
+            display: none
+    .require
+        &_title
+            font-size: 16px
+        &_list
+            li
+                font-size: 14px
+    .world
+        height: 360px
+        .subtitle
+            font-size: 14px
+        &_text
+            margin-top: 160px
+    .footer
+        &_links
+            width: 289px
+            &_main
+                padding: 0
+                font-size: 14px
+            &_sub
+                flex-wrap: wrap
+                justify-content: space-between
+                a
+                    margin: 0 7px
